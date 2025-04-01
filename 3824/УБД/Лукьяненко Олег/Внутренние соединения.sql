@@ -1,0 +1,3 @@
+select vend_name, prod_name, prod_price
+from Vendors INNER JOIN Products
+ON Vendors.vend_id = Products.vend_id;

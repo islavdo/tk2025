@@ -1,0 +1,7 @@
+CREATE TABLE  Stocking (
+StockingID INT PRIMARY KEY,
+PondID INT FOREIGN KEY REFERENCES Ponds(PondID),
+FishID INT FOREIGN KEY REFERENCES FishPonds(FishID),
+Stocking DATE,
+Number INT
+);

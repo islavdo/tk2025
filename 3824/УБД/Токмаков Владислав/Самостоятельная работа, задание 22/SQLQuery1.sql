@@ -1,0 +1,7 @@
+CREATE TABLE Ponds (
+PondID INT PRIMARY KEY,
+Name VARCHAR(50),
+Area FLOAT,
+MaxDepth FLOAT,
+AvgDepth FLOAT
+);

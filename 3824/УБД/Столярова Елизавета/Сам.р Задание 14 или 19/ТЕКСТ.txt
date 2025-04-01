@@ -1,0 +1,12 @@
+CREATE TABLE Orders
+(
+ id_заказа char(10)  NOT NULL,
+ Дата datetime NOT NULL,
+ Время заказа TIME NOT NULL,
+ Статус заказа char(10) NOT NULL,
+ id_товара char(10)  NOT NULL,
+ кол-во товара char(100)NOT NULL, 
+ id_доставки char(10)  NOT NULL,
+ Оплата заказа char(50) NOT NULL,
+ id_клиента char(10) NOT NULL
+);

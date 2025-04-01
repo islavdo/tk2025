@@ -1,0 +1,2 @@
+”Hello, students!”
+echo This is second stream > primer.txt:potok1.txt
